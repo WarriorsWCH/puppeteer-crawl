@@ -5,6 +5,7 @@
     "main": "index.js",
     "dependencies": {
         "chalk": "^2.4.1",
+        "elasticsearch": "^15.2.0",
         "puppeteer": "^1.6.2"
     },
     "scripts": {
