@@ -1,5 +1,5 @@
 const chalk = require('chalk');
-const fs = require('fs');
+// const fs = require('fs');
 
 class Tools {
     /**
@@ -35,7 +35,6 @@ class Tools {
      */
     static log(content, type) {
         let updatedContent = '';
-        let logPath = process.env.logPath;
         switch (type) {
             case 'title':
                 updatedContent = '标题:' + content;
